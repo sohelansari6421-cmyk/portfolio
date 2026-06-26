@@ -14,31 +14,3 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio Website
-
-A personal portfolio website built with React, Vite, Tailwind CSS, and Django REST Framework.
-
-## Features
-
-- Responsive Design
-- Dark Mode
-- Projects Section
-- Skills Section
-- Contact Form
-- Resume Download
-
-## Technologies Used
-
-- React
-- Vite
-- Tailwind CSS
-- Django REST Framework
-- SQLite
-
-## Run Locally
-
-### Frontend
-
-```bash
-npm install
-npm run dev
