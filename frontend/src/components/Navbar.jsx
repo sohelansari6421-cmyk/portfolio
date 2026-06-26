@@ -19,8 +19,10 @@ export function Navbar({ darkMode, setDarkMode }) {
                     <a href="#Contact">Contact</a>
                 </div>
                 <div className="logo-to">
-                    <a href="https://aniwatch.co.at/"><FaGithub /></a>
-                    <FaLinkedin />
+                    <a href="https://github.com/sohelansari6421-cmyk"><FaGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/sohel-ansari-659033339/"><FaLinkedin /></a>
+
                     <>
                         <button className="menu-btn" onClick={() => setOpen(!open)}> ⋮</button>
                         {open && (
