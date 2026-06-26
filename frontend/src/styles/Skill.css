@@ -1,0 +1,28 @@
+.py {
+    color: #2563eb;
+    font-size: large;
+    border-radius: 10px solid black;
+
+
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.skill-card {
+    background: #2563eb;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}

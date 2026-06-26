@@ -1,0 +1,99 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px rgba(0, 0, 0.10);
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    flex: 1;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.logo-to {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1px;
+
+}
+
+.dropdown {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    padding: 10px;
+}
+
+.menu-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+.logo {
+    flex: 1;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+
+    gap: 15px;
+
+
+}
+
+.light .navbar {
+    background: white;
+}
+
+.dark .navbar {
+    background: #1f2937;
+}
+
+.light .nav-link a {
+    color: black;
+}
+
+.dark .nav-link a {
+    color: white;
+}
+
+.light .logo {
+    color: black;
+}
+
+.dark .logo {
+    color: white;
+}
+
+.light .dropdown {
+    background: white;
+}
+
+.dark .dropdown {
+    background: #374151;
+}
+
+.dark .dropdown-btn {
+    color: white;
+    background: transparent;
+}

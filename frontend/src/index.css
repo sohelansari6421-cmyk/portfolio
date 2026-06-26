@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.light {
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: #111827;
+    color: white;
+    min-height: 100vh;
+}
+
+.a {
+    color: red;
+}

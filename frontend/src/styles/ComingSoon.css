@@ -1,0 +1,30 @@
+.coming {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.coming h1 {
+    font-size: 48px;
+    color: #2563eb;
+}
+
+.coming p {
+    font-size: 20px;
+}
+
+.back-btn {
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.back-btn:hover {
+    background: #1d4ed8;
+}
