@@ -15,12 +15,7 @@ SECRET_KEY = "django-insecure-$$ek%31)+&#c73p8yd92*e@_em$9iwdow-bkpz8k^z*g4ykh(o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-    "portfolio-2eq1.onrender.com",
-    "portfolio-ten-eosin-94.vercel.app",
-]
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
