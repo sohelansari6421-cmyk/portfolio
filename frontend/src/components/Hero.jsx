@@ -15,10 +15,12 @@ export function Hero() {
                     React Developer |Django Developer
                 </p>
                 <button className="hero-btn">
-                    <a href="/assets/resume.pdf"
-                        download="resume.pdf"
-                        onClick={() => alert("Resume download successfully!")}
-                    > Download Resume</a>
+                    <a
+                        href="/assets/resume.pdf"
+                        download="Mohd_Sohel_Ansari_Resume.pdf"
+                    >
+                        Download Resume
+                    </a>
 
                 </button>
             </div>
