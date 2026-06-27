@@ -12,3 +12,7 @@ class Myproject(ListAPIView):
 class ContactCreate(CreateAPIView):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
+
+
+def home(request):
+    print("hello. world")
