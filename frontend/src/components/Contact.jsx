@@ -21,7 +21,9 @@ export function Contact() {
             setmessage("");
             console.log("success:", res.data);
         } catch (error) {
-            console.log("error:", error.response)
+            console.log("error:", error.response);
+            console.log("Data:", error.response?.data);
+            alert(JSON.stringify(error.response?.data));
         };
 
     };
