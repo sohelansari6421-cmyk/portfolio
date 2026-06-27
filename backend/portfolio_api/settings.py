@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-$$ek%31)+&#c73p8yd92*e@_em$9iwdow-bkpz8k^z*g4ykh(o
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    ".onrender.com",
+    "https://portfolio-ten-eosin-94.vercel.app",
 ]
 
 
