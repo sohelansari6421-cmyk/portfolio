@@ -10,7 +10,7 @@ export function Contact() {
         e.preventDefault();
         console.log("submitting....");
         try {
-            await API.post("contact/", {
+            const res = await API.post("contact/", {
                 name,
                 email,
                 message,
@@ -42,7 +42,7 @@ export function Contact() {
 
                     <input className="border p-3 w-full"
                         placeholder="Email"
-                        type="emil"
+                        type="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     />
