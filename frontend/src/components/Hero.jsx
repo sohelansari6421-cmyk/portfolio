@@ -1,6 +1,7 @@
 import "../styles/Hero.css"
 
 
+
 export function Hero() {
 
     return (
@@ -14,8 +15,8 @@ export function Hero() {
                     React Developer |Django Developer
                 </p>
                 <button className="hero-btn">
-                    <a href="/Resume.pdf"
-                        download
+                    <a href="/assets/resume.pdf"
+                        download="resume.pdf"
                         onClick={() => alert("Resume download successfully!")}
                     > Download Resume</a>
 
