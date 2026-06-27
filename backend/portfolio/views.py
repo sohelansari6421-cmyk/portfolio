@@ -1,6 +1,7 @@
 from rest_framework.generics import ListAPIView, CreateAPIView
 from .models import Project, Contact
 from .serializers import ProjectSerializer, ContactSerializer
+from django.http import HttpResponse
 
 
 # Create your views here.
@@ -15,4 +16,4 @@ class ContactCreate(CreateAPIView):
 
 
 def home(request):
-    print("hello. world")
+    return HttpResponse("hello. world")
