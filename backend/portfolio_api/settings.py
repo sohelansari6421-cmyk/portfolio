@@ -16,7 +16,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "portfolio-2eq1.onrender.com" "https://portfolio-ten-eosin-94.vercel.app",
+    "portfolio-2eq1.onrender.com",
+    "portfolio-ten-eosin-94.vercel.app",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
